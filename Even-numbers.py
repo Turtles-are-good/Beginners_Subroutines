@@ -8,7 +8,7 @@ list = []
 count = 0
 while count <= 20 :
     n = int(input("Enter a number : \n"))
-    if n % n == 0 :
+    if True :
         list.append(n)
         count += 1
 getEven(list)

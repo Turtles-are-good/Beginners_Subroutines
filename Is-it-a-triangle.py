@@ -1,5 +1,5 @@
 def is_triangle(side_a, side_b, side_c):
-    return side_a + side_b < side_c
+    return side_a + side_b > side_c
 
 a = int(input("Enter the smallest side of your shape"))
 b = int(input("Enter the second smallest side of your shape"))
